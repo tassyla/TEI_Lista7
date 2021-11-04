@@ -16,5 +16,5 @@ while True:
         n = int(input())
         print(f'f({n}) = {fib_dp(n)}')
 
-    except:
+    except EOFError:
         break

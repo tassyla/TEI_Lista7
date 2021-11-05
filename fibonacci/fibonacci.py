@@ -1,3 +1,6 @@
+# Tássyla Lissa Lima - INF3A - 20192001990
+# Referência: https://youtu.be/dYIVEW1CmBk
+
 tb = [-1 for _ in range(1005)]
 
 def fib_dp (n):

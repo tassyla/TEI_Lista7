@@ -1,3 +1,6 @@
+# Tássyla Lissa Lima - INF3A - 20192001990
+# Referência: https://youtu.be/dYIVEW1CmBk
+
 def dp(i):
     global tb, moedas
 
@@ -15,5 +18,5 @@ while True:
 
         print(f'A melhor opção em {moedas} é {dp(0)}')
 
-    except:
+    except EOFError:
         break
